@@ -221,7 +221,7 @@ h1 {
     font-size: 5rem;
     letter-spacing: -2px;
     text-indent: -3px;
-    color: #5A79B3;
+    color: #5AA8B3;
 }
 
 h2 {
@@ -251,7 +251,7 @@ a {
 }
 
 a:hover {
-    color: #5A79B3;
+    color: #5AA8B3;
 }
 
 p, ul, ol, dl {
@@ -311,7 +311,7 @@ blockquote {
     box-sizing: border-box;
     margin: 1.75em 0 1.75em -2.2em;
     padding: 0 0 0 1.75em;
-    border-left: #5A79B3 0.4em solid;
+    border-left: #5AA8B3 0.4em solid;
 }
 
 blockquote p {
@@ -527,7 +527,7 @@ body.nav-opened .site-wrapper {
 .content {
     position: relative;
     padding-top: 5rem;
-    border-top: 2px solid #5A79B3;
+    border-top: 2px solid #5AA8B3;
     -webkit-box-shadow: 0px -5px 10px 0px rgba(155,155,155,0.05);
     -moz-box-shadow: 0px -5px 10px 0px rgba(155,155,155,0.05);
     box-shadow: 0px -5px 10px 0px rgba(155,155,155,0.05);
@@ -848,8 +848,8 @@ body.nav-opened .nav {
     color: #3A4145;
 }
 .nav-closed .no-cover .menu-button:hover {
-    border-color: #5A79B3;
-    color: #5A79B3;
+    border-color: #5AA8B3;
+    color: #5AA8B3;
 }
 
 /* When the navigation is opened */
@@ -910,11 +910,11 @@ body.nav-opened .nav {
 }
 
 .no-cover .page-title {
-    color: #5A79B3;
+    color: #5AA8B3;
 }
 
 .no-cover .page-description {
-    color: #5A79B3;
+    color: #5AA8B3;
 }
 
 /* Add subtle load-in animation for content on the home page */
@@ -964,12 +964,12 @@ body:not(.post-template) .post-title {
 }
 
 .post-title a {
-    color: #5A79B3;
+    color: #5AA8B3;
     text-decoration: none;
 }
 
 .post-title a:hover {
-    color: #6D93D9;
+    color: #67C1CF;
 }
 
 .post-excerpt p {
