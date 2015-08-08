@@ -527,7 +527,7 @@ body.nav-opened .site-wrapper {
 .content {
     position: relative;
     padding-top: 5rem;
-    border-top: 2px solid #5AA8B3;
+    border-top: 1px solid #EBF2F6;
     -webkit-box-shadow: 0px -5px 10px 0px rgba(155,155,155,0.05);
     -moz-box-shadow: 0px -5px 10px 0px rgba(155,155,155,0.05);
     box-shadow: 0px -5px 10px 0px rgba(155,155,155,0.05);
