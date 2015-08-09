@@ -564,7 +564,7 @@ body.nav-opened .nav-cover {
     z-index: 5;
     width: 240px;
     opacity: 0;
-    background: #111;
+    background: #5AA8B3;
     margin-bottom: 0;
     text-align: left;
     overflow-y: auto;
@@ -622,7 +622,7 @@ body.nav-opened .nav {
     top: 0;
     width: 20px;
     height: 1px;
-    background: rgb(150,150,150);
+    background: #ffffff;
     top: 15px;
     -webkit-transition: background 0.15s ease;
             transition: background 0.15s ease;
@@ -660,7 +660,7 @@ body.nav-opened .nav {
     font-size: 1.2rem;
     vertical-align: bottom;
     color: #B8B8B8;
-    content: counter(item, lower-roman);
+    /*content: counter(item, lower-roman);*/
     counter-increment: item;
 }
 .nav li {
@@ -678,7 +678,7 @@ body.nav-opened .nav {
 }
 .nav li a:after {
     display: inline-block;
-    content: " .......................................................";
+    /*content: " .......................................................";*/
     color: rgba(255,255,255,0.2);
     margin-left: 5px;
 }
@@ -687,14 +687,14 @@ body.nav-opened .nav {
 }
 .nav .nav-current a:after {
     content: " ";
-    border-bottom: rgba(255,255,255,0.5) 1px solid;
+    /*border-bottom: rgba(255,255,255,0.5) 1px solid;*/
     width: 100%;
     height: 1px;
 }
 
 .nav a:link,
 .nav a:visited {
-    color: #B8B8B8;
+    color: #3A4145;
 }
 
 .nav li.nav-current a,
@@ -715,15 +715,16 @@ body.nav-opened .nav {
     right: 30px;
     height: 38px;
     padding: 0 20px;
-    color: #111 !important; /* Overides `.nav a:link, .nav a:visited` colour */
+    color: #ffffff !important; /* Overides `.nav a:link, .nav a:visited` colour */
     text-align: center;
     font-size: 12px;
     font-family: "Open Sans", sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 35px;
+    border: 1px solid #ffffff;
     border-radius: 3px;
-    background: #fff;
+    /*background: ;*/
     transition: all ease 0.3s;
 }
 .subscribe-button:before {
@@ -846,8 +847,8 @@ body.nav-opened .nav {
 
 /* When the navigation is closed and there is no cover image */
 .nav-closed .no-cover .menu-button {
-    border-color: #3A4145;
-    color: #3A4145;
+    border-color: #919CA4;
+    color: #919CA4;
 }
 .nav-closed .no-cover .menu-button:hover {
     border-color: #5AA8B3;
@@ -857,9 +858,9 @@ body.nav-opened .nav {
 /* When the navigation is opened */
 .nav-opened .menu-button {
     padding: 0 12px;
-    background: #111;
-    border-color: #111;
-    color: #fff;
+    background: #5AA8B3;
+    border-color: #5AA8B3;
+    color: #ffffff;
     -webkit-transform: translate3D(94px, 0, 0);
         -ms-transform: translate3D(94px, 0, 0);
             transform: translate3D(94px, 0, 0);
@@ -916,7 +917,7 @@ body.nav-opened .nav {
 }
 
 .no-cover .page-description {
-    color: #5AA8B3;
+    color: #919CA4;
 }
 
 /* Add subtle load-in animation for content on the home page */
