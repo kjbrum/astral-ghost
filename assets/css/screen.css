@@ -2059,9 +2059,9 @@ body:not(.post-template) .post-title {
         font-size: 1.4rem;
     }
 
-    .archive-template .main-header .page-description {
+    /*.archive-template .main-header .page-description {
         display: none;
-    }
+    }*/
 
     .read-next {
         margin-top: 2rem;
