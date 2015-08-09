@@ -1910,9 +1910,9 @@ body:not(.post-template) .post-title {
         line-height: 1.65em;
     }
 
-    .post-date {
+    /*.post-date {
         display: none;
-    }
+    }*/
 
     .post-template .post-header {
         margin-bottom: 2rem;
