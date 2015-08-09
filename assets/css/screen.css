@@ -520,8 +520,10 @@ body.nav-opened .site-wrapper {
 .main-header .author-image {
     position: static;
     margin: 0 auto;
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
+    padding: 5px;
+    background: #EBF2F6;
 }
 
 .content {
@@ -1237,6 +1239,7 @@ body:not(.post-template) .post-title {
     text-align: left;
     /*margin-bottom: 0;*/
     /*background: transparent;*/
+    padding-top: 5rem;
 }
 
 .tag-head.main-header {
