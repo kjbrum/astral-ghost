@@ -1632,8 +1632,8 @@ body:not(.post-template) .post-title {
 
 .older-posts:hover,
 .newer-posts:hover {
-    color: #889093;
-    border-color: #98a0a4;
+    color: #5AA8B3;
+    border-color: #5AA8B3;
 }
 
 .extra-pagination {
