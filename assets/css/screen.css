@@ -511,7 +511,7 @@ body.nav-opened .site-wrapper {
     text-align: center;
     background: #F1F5FB no-repeat center center;
     background-size: cover;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .main-header .inner {
@@ -526,6 +526,49 @@ body.nav-opened .site-wrapper {
     padding: 5px;
     background: #EBF2F6;
 }
+
+.main-header .subscribe {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    z-index: 99;
+    border: 1px solid #EBF2F6;
+    font-size: 1.2rem;
+    padding: 10px;
+    line-height: 0;
+    border-radius: 100%;
+    background: #ffffff;
+    color: #5AA8B3;
+    transform: translate(-50%,-50%);
+    transition: 0.3s ease;
+}
+
+.home-template .main-header .subscribe,
+.archive-template .main-header .subscribe {
+    display: block;
+}
+
+.main-header .subscribe:hover {
+    border-color: #5AA8B3;
+}
+
+/*.main-header .subscribe:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 1px;
+    width: 0;
+    background: #5AA8B3;
+    transition: 0.6s ease;
+    z-index: -1;
+}
+
+.main-header .subscribe:hover:after {
+    width: 100vw;
+    transform: translateX(-50vw);
+}*/
 
 .content {
     position: relative;

@@ -3,6 +3,8 @@
 
 {{! The big featured header }}
 <header class="main-header {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
+    <a href="{{@blog.url}}/rss" class="subscribe"><i class="fa fa-rss"></i></a>
+
     <nav class="main-nav overlay clearfix">
         {{#if @blog.navigation}}
             {{! <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a> }}
