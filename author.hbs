@@ -6,7 +6,7 @@
 {{! Everything inside the #author tags pulls data from the author }}
 {{#author}}
     <header class="main-header {{#if cover}}" style="background-image: url({{cover}}){{else}}no-cover{{/if}}">
-        <a href="{{@blog.url}}/rss" class="subscribe" target="_blank"><i class="fa fa-rss"></i></a>
+        {{> "social-media" }}
 
         <nav class="main-nav overlay clearfix">
             <a class="blog-logo icon-arrow-left" href="{{@blog.url}}">Home</a>
