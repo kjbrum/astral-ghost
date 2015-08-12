@@ -14,7 +14,9 @@
         <div class="main-header-content inner">
             {{#if @blog.logo}}
             <figure class="author-image">
-                <a class="img" href="{{@blog.url}}" style="background-image: url({{@blog.logo}})"><span class="hidden">{{@blog.title}}</span></a>
+                {{# posts.[0].author }}
+                    <a class="img" href="{{url}}" style="background-image: url({{@blog.logo}})"><span class="hidden">{{name}}'s Picture</span></a>
+                {{/ posts.[0].author }}
             </figure>
             {{/if}}
 
