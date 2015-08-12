@@ -3,7 +3,13 @@
 
 {{! The big featured header }}
 <header class="main-header {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
-    <a href="{{@blog.url}}/rss" class="subscribe" target="_blank"><i class="fa fa-rss"></i></a>
+    <div class="social-media">
+        <a href="{{@blog.url}}/rss" target="_blank" class="github"><i class="fa fa-github"></i></a>
+        <a href="{{@blog.url}}/rss" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="{{@blog.url}}/rss" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="{{@blog.url}}/rss" target="_blank" class="dribbble"><i class="fa fa-dribbble"></i></a>
+        <a href="{{@blog.url}}/rss" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+    </div>
 
     <nav class="main-nav overlay clearfix">
         {{#if @blog.navigation}}
