@@ -19,7 +19,7 @@
             <div class="main-header-content inner">
                 {{#if @blog.logo}}
                 <figure class="author-image">
-                    <a class="img" href="{{url}}" style="background-image: url({{@blog.logo}})"><span class="hidden">{{name}}'s Picture</span></a>
+                    <div class="img" style="background-image: url({{@blog.logo}})"><span class="hidden">{{name}}'s Picture</span></div>
                 </figure>
                 {{/if}}
 
@@ -33,7 +33,7 @@
     <main id="content" class="content" role="main">
         <section class="author-profile inner">
             {{#if bio}}
-                <p class="author-bio">{{bio}}<br>Get ahold of me on <a href="http://github.com/kjbrum" class="github" target="_blank">Github</a>, <a href="http://twitter.com/kyle_brumm" class="twitter" target="_blank">Twitter</a>, <a href="https://dribbble.com/kjbrum" class="dribbble" target="_blank">Dribbble</a>, <a href="http://facebook.com/kylebrumm" class="facebook" target="_blank">Facebook</a>, or shoot me an <a href="mailto:{{email}}">email</a>.</p>
+                <p class="author-bio">{{bio}}<br>Get ahold of me on <a href="http://github.com/kjbrum" class="github" target="_blank">Github</a>, <a href="https://www.linkedin.com/in/kylebrumm" target="_blank" class="linkedin">LinkedIn</a>, <a href="http://twitter.com/kyle_brumm" class="twitter" target="_blank">Twitter</a>, <a href="https://dribbble.com/kjbrum" class="dribbble" target="_blank">Dribbble</a>, or <a href="http://facebook.com/kylebrumm" class="facebook" target="_blank">Facebook</a>.</p>
             {{/if}}
             <div class="author-meta">
                 {{#if location}}<span class="author-location icon-location">{{location}}</span>{{/if}}
