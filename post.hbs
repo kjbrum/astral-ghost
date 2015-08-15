@@ -28,6 +28,12 @@
     <article class="{{post_class}}">
 
         <section class="post-content">
+            {{#if image}}
+                <p>
+                    <img src="{{image}}" alt="{{title}}">
+                </p>
+            {{/if}}
+
             {{content}}
         </section>
 
